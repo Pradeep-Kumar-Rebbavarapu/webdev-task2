@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+        
+	</head>
+    <style>
+        label{
+            text-align: center;
+            font-size: 20px;
+            font-weight:bold;
+        }
+            input{
+                margin:10px;
+            }
+    </style>
+	<body>
+		<div>
+			<h1>Resgitraion Form</h1>
+			<form action="">
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required />
+				</div>
+				<div>
+					<label for="class">Class:</label>
+					<select id="class" name="class"  required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    Year
+				</div>
+				<div>
+					<label for="qualification">Qualification::</label>
+					<select type="text" id="qualification" name="qualification"  required>
+                        <option value="B.tech">B.tech</option>
+                        <option value="M.tech">M.tech</option>
+                        <option value="Phd">Phd</option>
+                    </select>
+				</div>
+                <div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+				</div>
+				<div>
+					<label for="address">Address:</label>
+					<textarea id="address" name="address" required>
+                    </textarea>
+				</div>
+				<div>
+					<label for="photo">Upload Photo:</label>
+					<input type="file" id="photo" name="photo"  required/>
+				</div>
+				<div>
+                    <button type="submit">Register</button>
+                    <button type="reset">Clear</button>
+                </div>
+			</form>
+		</div>
+	</body>
+</html>
